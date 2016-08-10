@@ -1,6 +1,6 @@
 body {
-	background-color: rgb(255,255,255);
 	font-family: Calibri;
+	background-color: rgb(217,208,186);
 }
 
 h1 {
@@ -8,12 +8,12 @@ h1 {
 	font-size: 24pt;
 	font-family: Calibri;
 	text-align: center;
+	background-color: rgb(255,255,255);
 
 }
 
 p {
 	color: rgb(60,60,60);
-	background-color: rgb(217,208,186);
 	font-size: 12pt;
 }
 
@@ -50,5 +50,4 @@ ul {
 	color: rgb(0,0,0);
 	font-weight: bold;
 	font-size: 14pt;
-	background-color: rgb(217,208,186);
 }
