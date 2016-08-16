@@ -1,0 +1,56 @@
+
+
+body {
+	font-family: 'EB Garamond', serif;
+	background-color: rgb(217,208,186);
+}
+
+h1 {
+	color: rgb(0,0,0);
+	font-size: 24pt;
+	text-align: center;
+	background-color: rgb(255,255,255);
+}
+
+p {
+	color: rgb(60,60,60);
+	font-size: 12pt;
+}
+
+#logo {
+	text-align: center;
+}
+
+#slogan {
+	font-family: 'Anton' sans-serif;
+	font-style: italic;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24pt;
+}
+
+.re {
+	font-family: 'Anton' sans-serif;
+	color: red;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Arial;
+
+}
+
+.covered {
+	font-family: 'Anton' sans-serif;
+	color: black;
+	font-size: 14pt;
+	font-weight: bold;
+
+}
+
+ul {
+	font-family: 'Anton' sans-serif;
+	text-align: center;
+	list-style-type: none;
+	color: rgb(0,0,0);
+	font-weight: bold;
+	font-size: 14pt;
+}
