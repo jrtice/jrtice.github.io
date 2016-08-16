@@ -1,7 +1,7 @@
 
 
 body {
-	font-family: 'EB+Garamond', serif;
+	font-family: 'EB Garamond', serif;
 	background-color: rgb(217,208,186);
 }
 
@@ -22,7 +22,7 @@ p {
 }
 
 #slogan {
-	font-family: 'Anton' sans-serif;
+	font-family: 'Anton', sans-serif;
 	font-style: italic;
 	text-align: center;
 	text-transform: capitalize;
