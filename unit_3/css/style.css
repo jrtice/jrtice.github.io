@@ -32,7 +32,7 @@ p {
 }
 
 .re {
-	color: red
+	color: red;
 	font-size: 14pt;
 	font-weight: bold;
 	font-family: Ariel;
