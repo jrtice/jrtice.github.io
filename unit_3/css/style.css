@@ -9,7 +9,10 @@ h1 {
 	font-family: Calibri;
 	text-align: center;
 	background-color: rgb(255,255,255);
-
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 p {
@@ -28,7 +31,7 @@ p {
 	font-size: 24pt;
 }
 
-#bizre {
+.re {
 	color: red
 	font-size: 14pt;
 	font-weight: bold;
@@ -36,7 +39,7 @@ p {
 
 }
 
-#bizcovered {
+.covered {
 	color: black;
 	font-size: 14pt;
 	font-weight: bold;
