@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-	color: rgb(60,60,60);
+	color: rgb(0,0,0);
 	font-size: 12pt;
 }
 
@@ -26,8 +26,7 @@ p {
 	font-variant: small-caps;
 	font-style: italic;
 	text-align: center;
-	text-transform: capitalize;
-	font-size: 24pt;
+	font-size: 30pt;
 }
 
 .re {
