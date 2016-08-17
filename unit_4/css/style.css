@@ -23,6 +23,7 @@ p {
 
 #slogan {
 	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
 	font-style: italic;
 	text-align: center;
 	text-transform: capitalize;
@@ -31,12 +32,14 @@ p {
 
 .re {
 	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
 	color: red;
 	font-size: 12pt;
 }
 
 .covered {
 	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
 	color: black;
 	font-size: 12pt;
 }
