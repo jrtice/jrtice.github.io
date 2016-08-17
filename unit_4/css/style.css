@@ -32,16 +32,13 @@ p {
 .re {
 	font-family: 'Anton', sans-serif;
 	color: red;
-	font-size: 14pt;
-	font-weight: bold;
+	font-size: 12pt;
 }
 
 .covered {
 	font-family: 'Anton', sans-serif;
 	color: black;
-	font-size: 14pt;
-	font-weight: bold;
-
+	font-size: 12pt;
 }
 
 ul {
@@ -49,6 +46,5 @@ ul {
 	text-align: center;
 	list-style-type: none;
 	color: rgb(0,0,0);
-	font-weight: bold;
 	font-size: 14pt;
 }
