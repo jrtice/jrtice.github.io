@@ -116,7 +116,7 @@ p {
 	padding: 20px;
 }
 
-#left {
+#related_links {
 	background-color: #E582A2;
 	border: 1px black solid;
 	padding: 20px;
@@ -124,7 +124,7 @@ p {
 	width: 30%;
 }
 
-#right {
+#overview {
 	background-color: #E55B88;
 	border: 1px black solid;
 	padding: 20px;
@@ -139,4 +139,34 @@ p {
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+#three_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#weaving {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#caning {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+
+#upholstery {
+	background-color: #E55E50;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
 }
