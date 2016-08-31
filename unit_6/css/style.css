@@ -7,37 +7,37 @@ body {
 }
 
 header {
-	background-color: #FFED74;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: #A69A55;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 aside {
-	background-color: #FFC675;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 article {
-	background-color: #E89C6C;
+	background-color: #FFEDD7;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: #A69A8C;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 div,section {
-	background-color: #FFE2B8;
+	background-color: #A69A55;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -46,7 +46,7 @@ h1 {
 	color: rgb(0,0,0);
 	font-size: 24pt;
 	text-align: center;
-	background-color: rgb(255,255,255);
+	background-color: white;
 }
 
 h2 {
@@ -62,7 +62,6 @@ p {
 	font-size: 12pt;
 	line-height: 1.5em;
 	margin: 1em;
-
 }
 
 #logo {
@@ -111,13 +110,13 @@ p {
 }
 
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #A69A55;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 #related_links {
-	background-color: #E582A2;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
@@ -125,7 +124,7 @@ p {
 }
 
 #overview {
-	background-color: #E55B88;
+	background-color: #FFEDD7;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
@@ -142,13 +141,13 @@ p {
 }
 
 #three_column {
-	background-color: #FFB7CF;
+	background-color: #A69A55;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 #weaving {
-	background-color: #E582A2;
+	background-color: #FFEDD7;
 	border: 1px black solid;
 	padding: 20px;
 	float:	left;
@@ -156,7 +155,7 @@ p {
 }
 
 #caning {
-	background-color: #E55B88;
+	background-color: #FFEDD7;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
@@ -164,7 +163,7 @@ p {
 }
 
 #upholstery {
-	background-color: #E55B88;
+	background-color: #FFEDD7;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
