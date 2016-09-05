@@ -1,0 +1,187 @@
+body {
+	font-family: 'EB Garamond', serif;
+	/*background-color: rgb(232,228,193);*/
+	background-color: white;
+}
+
+header {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #A69A55;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #FFEDD7;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #A69A8C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div,section {
+	background-color: #A69A55;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	color: rgb(0,0,0);
+	font-size: 24pt;
+	text-align: center;
+	background-color: white;
+}
+
+h2 {
+	color: rgb(0,0,0);
+	font-size: 14pt;
+	text-align: center;
+	border-bottom: 4px solid black;
+  	display: inline-block;
+}
+
+p {
+	color: rgb(0,0,0);
+	font-size: 12pt;
+	line-height: 1.5em;
+	margin: 1em;
+}
+
+#logo {
+	text-align: left;
+}
+
+nav a {
+	test-decoration: none;
+	color: #E82C0C;
+	font-size: 14px;
+	margin: 1.89em;
+	display: inline-block;
+}
+
+a:hover {
+	background-color: #78C1FF;
+}
+
+#navlinks {
+	background-color: white;
+	padding: 20px;
+	float: right;
+}
+
+#links {
+	text-align: center;
+	font-family: Calibri;
+	font-size: 24pt;
+}
+
+#slogan {
+	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
+	font-style: italic;
+	text-align: center;
+	font-size: 30pt;
+}
+
+.re {
+	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
+	color: red;
+}
+
+.covered {
+	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
+	color: black;
+}
+
+#serviceslist {
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	list-style-type: none;
+	color: rgb(0,0,0);
+	font-size: 14pt;
+}
+
+#linkslist {
+	text-align: left;
+	list-style-type: none;
+	color: rgb(50,1,232);
+	font-size: 12pt;
+}
+
+#two_column {
+	background-color: #A69A55;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#related_links {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#overview {
+	background-color: #FFEDD7;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#three_column {
+	background-color: #A69A55;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#weaving {
+	background-color: #FFEDD7;
+	border: 1px black solid;
+	padding: 20px;
+	float:	left;
+	width: 30%;
+}
+
+#caning {
+	background-color: #FFEDD7;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#upholstery {
+	background-color: #FFEDD7;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
