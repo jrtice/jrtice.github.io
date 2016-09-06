@@ -64,13 +64,16 @@ p {
 
 #logo {
 	text-align: left;
+	margin: 20px;
 }
 
 nav a {
-	test-decoration: none;
+	font-family: 'Anton', sans-serif;
+	text-decoration: none;
 	color: #E82C0C;
-	font-size: 14px;
-	margin: 1.89em;
+	font-size: 18px;
+	margin: 1.5em;
+	padding: 20px;
 	display: inline-block;
 }
 
