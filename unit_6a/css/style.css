@@ -78,12 +78,13 @@ nav a {
 }
 
 a:hover {
-	background-color: #78C1FF;
+	background-color: #9EA3C7;
 }
 
 #navlinks {
-	background-color: white;
+	background-color: #CFE5FF;
 	float: right;
+	padding: 10px;
 }
 
 #links {
