@@ -43,16 +43,19 @@ div,section {
 h1 {
 	color: rgb(0,0,0);
 	font-size: 24pt;
+	font-family: 'Anton', sans-serif;
 	text-align: center;
 	background-color: white;
 }
 
 h2 {
-	color: rgb(0,0,0);
+	color: black;
 	font-size: 14pt;
+	font-family: 'Anton', sans-serif;
 	text-align: center;
 	border-bottom: 4px solid black;
   	display: inline-block;
+  	margin: .5em;
 }
 
 p {
@@ -82,9 +85,10 @@ a:hover {
 }
 
 #navlinks {
-	background-color: #CFE5FF;
+	background-color: #E6E5FF;
 	float: right;
 	padding: 10px;
+	margin: 10px;
 }
 
 #links {
