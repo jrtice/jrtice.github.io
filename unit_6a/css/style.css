@@ -52,7 +52,7 @@ header {
 
 #navlinks {
 	background-color: #FFFBE5;
-	float: right;
+	text-align: center;
 	padding: 10px;
 	margin: 10px;
 }
@@ -103,7 +103,7 @@ a:hover {
 	border: 1px black solid;
 	padding: 20px;
 	margin: 10px;
-	/*float: right;*/
+	float: left;
 	width: 55%;
 }
 
