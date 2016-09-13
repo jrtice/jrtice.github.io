@@ -163,14 +163,9 @@ a:hover {
 	width: 28%;
 }
 
-#readmore {
-	text-align: left;
-	color: rgb(50,1,232);
-	font-size: 12pt;
-}
-
 footer {
-	background-color: #A69A8C;
+	background-color: #F2EACC;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
 }
