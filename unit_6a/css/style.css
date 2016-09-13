@@ -2,41 +2,7 @@ body {
 	font-family: 'EB Garamond', serif;
 	/*background-color: rgb(232,228,193);*/
 	background-color: white;
-}
-
-header {
-	background-color: white;
-	padding: 20px;
-}
-
-nav {
-	background-color: #A69A55;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-aside {
-	background-color: white;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-article {
-	background-color: #FFEDD7;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-footer {
-	background-color: #A69A8C;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-div,section {
-	background-color: #A69A55;
-	border: 1px black solid;
-	padding: 20px;
+	font-size: 12px;
 }
 
 h1 {
@@ -64,9 +30,18 @@ p {
 	margin: 1em;
 }
 
-#logo {
-	text-align: left;
-	margin: 20px;
+
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+#navlinks {
+	background-color: #FFFBE5;
+	float: right;
+	padding: 10px;
+	margin: 10px;
 }
 
 nav a {
@@ -83,17 +58,9 @@ a:hover {
 	background-color: #E2E0E5;
 }
 
-#navlinks {
-	background-color: #FFFBE5;
-	float: right;
-	padding: 10px;
-	margin: 10px;
-}
-
-#links {
-	text-align: center;
-	font-family: Calibri;
-	font-size: 24pt;
+#logo {
+	text-align: left;
+	margin: 20px;
 }
 
 #slogan {
@@ -116,25 +83,19 @@ a:hover {
 	color: black;
 }
 
-#serviceslist {
-	font-family: 'Anton', sans-serif;
-	text-align: center;
-	list-style-type: none;
-	color: rgb(0,0,0);
-	font-size: 14pt;
-}
-
-#linkslist {
-	text-align: left;
-	list-style-type: none;
-	color: rgb(50,1,232);
-	font-size: 12pt;
-}
-
 #two_column {
 	background-color: #FFF6D7;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 #related_links {
@@ -146,6 +107,13 @@ a:hover {
 	margin: 10px;
 }
 
+#linkslist {
+	text-align: left;
+	list-style-type: none;
+	color: rgb(50,1,232);
+	font-size: 12pt;
+}
+
 #overview {
 	background-color: white;
 	border: 1px black solid;
@@ -155,13 +123,12 @@ a:hover {
 	width: 55%;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+#serviceslist {
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	list-style-type: none;
+	color: rgb(0,0,0);
+	font-size: 14pt;
 }
 
 #three_column {
@@ -200,4 +167,10 @@ a:hover {
 	text-align: left;
 	color: rgb(50,1,232);
 	font-size: 12pt;
+}
+
+footer {
+	background-color: #A69A8C;
+	border: 1px black solid;
+	padding: 20px;
 }
