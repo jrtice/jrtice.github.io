@@ -2,12 +2,12 @@ body {
 	font-family: 'EB Garamond', serif;
 	/*background-color: rgb(232,228,193);*/
 	background-color: white;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 h1 {
 	color: rgb(0,0,0);
-	font-size: 24pt;
+	font-size: 2em;
 	font-family: 'Anton', sans-serif;
 	text-align: center;
 	background-color: white;
@@ -15,7 +15,7 @@ h1 {
 
 h2 {
 	color: black;
-	font-size: 14pt;
+	font-size: 1em;
 	font-family: 'Anton', sans-serif;
 	text-align: center;
 	border-bottom: 4px solid black;
@@ -25,17 +25,15 @@ h2 {
 
 p {
 	color: rgb(0,0,0);
-	font-size: 12pt;
+	font-size: .75em;
 	line-height: 1.5em;
 	margin: 1em;
 }
 
-
-
 header {
 	background-color: white;
 	width: 100%;
-	padding: 20px;
+	padding: 1em;
 }
 
 #logo {
@@ -49,7 +47,7 @@ header {
 	font-variant: small-caps;
 	font-style: italic;
 	text-align: center;
-	font-size: 30pt;
+	font-size: 2em;
 }
 
 #navlinks {
@@ -62,7 +60,7 @@ nav a {
 	font-family: 'Anton', sans-serif;
 	text-decoration: none;
 	color: #E82C0C;
-	font-size: 16px;
+	font-size: 1em;
 	margin: .5em;
 	padding: .5em;
 	display: inline-block;
@@ -87,7 +85,7 @@ a:hover {
 #two_column {
 	background-color: #FFF6D7;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 1em;
 	width: 95%;
 }
 
@@ -103,8 +101,8 @@ a:hover {
 #overview {
 	background-color: white;
 	border: 1px black solid;
-	padding: 20px;
-	margin: 10px;
+	padding: 1em;
+	margin: .5em;
 	float: left;
 	width: 55%;
 }
@@ -112,16 +110,16 @@ a:hover {
 #related_links {
 	background-color: white;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 1em;
 	float: left;
 	width: 30%;
-	margin: 10px;
+	margin: .5em;
 }
 
 #linkslist {
 	text-align: left;
 	color: rgb(50,1,232);
-	font-size: 12pt;
+	font-size: .75em;
 }
 
 #serviceslist {
@@ -129,20 +127,20 @@ a:hover {
 	text-align: center;
 	list-style-type: none;
 	color: rgb(0,0,0);
-	font-size: 14pt;
+	font-size: 1em;
 }
 
 #three_column {
 	background-color: white;
-	padding: 20px;
+	padding: 1em;
 	width: 95%;
 }
 
 #weaving {
 	background-color: #FFEDD7;
 	border: 1px black solid;
-	padding: 20px;
-	margin: 10px;
+	padding: 1em;
+	margin: .5em;
 	float:	left;
 	width: 25%;
 }
@@ -150,8 +148,8 @@ a:hover {
 #caning {
 	background-color: #FFEDD7;
 	border: 1px black solid;
-	padding: 20px;
-	margin: 10px;
+	padding: 1em;
+	margin: .5em;
 	float: left;
 	width: 25%;
 }
@@ -159,8 +157,8 @@ a:hover {
 #upholstery {
 	background-color: #FFEDD7;
 	border: 1px black solid;
-	padding: 20px;
-	margin: 10px;
+	padding: 1em;
+	margin: .5em;
 	float: left;
 	width: 25%;
 }
@@ -168,7 +166,7 @@ a:hover {
 footer {
 	background-color: #F2EACC;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 1em;
 	text-align: center;
 }
 
@@ -182,7 +180,7 @@ footer {
 @media only screen and (max-width: 772px) {
   
     #slogan {
-    font-size: 24px;
+    font-size: 1.5em;
   }
 
   #weaving {
