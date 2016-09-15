@@ -179,9 +179,24 @@ footer {
   }
 }
 
-@media only screen and (max-width: 695px) {
+@media only screen and (max-width: 772px) {
   
     #slogan {
     font-size: 24px;
+  }
+
+  #weaving {
+  	float:none;
+  	width: 100%;
+  }
+
+  #caning {
+  	float:none;
+  	width: 100%;
+  }
+
+  #upholstery {
+  	float:none;
+  	width: 100%;
   }
 }
