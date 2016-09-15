@@ -88,7 +88,7 @@ a:hover {
 	background-color: #FFF6D7;
 	border: 1px black solid;
 	padding: 20px;
-	width: 100%;
+	width: 95%;
 }
 
 .clearfix:after {
@@ -135,7 +135,7 @@ a:hover {
 #three_column {
 	background-color: white;
 	padding: 20px;
-	width: 100%;
+	width: 95%;
 }
 
 #weaving {
@@ -187,16 +187,16 @@ footer {
 
   #weaving {
   	float:none;
-  	width: 100%;
+  	width: 90%;
   }
 
   #caning {
   	float:none;
-  	width: 100%;
+  	width: 90%;
   }
 
   #upholstery {
   	float:none;
-  	width: 100%;
+  	width: 90%;
   }
 }
