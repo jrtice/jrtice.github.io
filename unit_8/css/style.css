@@ -214,4 +214,8 @@ footer {
   nav a {
   	display: inline;
   }
+
+  #logo {
+  	width: 240;
+  }
 }
