@@ -120,7 +120,6 @@ a:hover {
 
 #linkslist {
 	text-align: left;
-	list-style-type: none;
 	color: rgb(50,1,232);
 	font-size: 12pt;
 }
@@ -177,5 +176,12 @@ footer {
   
     #overview {
     width: 45%;
+  }
+}
+
+@media only screen and (max-width: 695px) {
+  
+    #slogan {
+    font-size: 24px;
   }
 }
