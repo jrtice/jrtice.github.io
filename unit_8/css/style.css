@@ -106,7 +106,7 @@ a:hover {
 	padding: 20px;
 	margin: 10px;
 	float: left;
-	width: 65%;
+	width: 55%;
 }
 
 #related_links {
@@ -136,6 +136,7 @@ a:hover {
 #three_column {
 	background-color: white;
 	padding: 20px;
+	width: 100%;
 }
 
 #weaving {
@@ -144,7 +145,7 @@ a:hover {
 	padding: 20px;
 	margin: 10px;
 	float:	left;
-	width: 28%;
+	width: 25%;
 }
 
 #caning {
@@ -153,7 +154,7 @@ a:hover {
 	padding: 20px;
 	margin: 10px;
 	float: left;
-	width: 28%;
+	width: 25%;
 }
 
 #upholstery {
@@ -162,7 +163,7 @@ a:hover {
 	padding: 20px;
 	margin: 10px;
 	float: left;
-	width: 28%;
+	width: 25%;
 }
 
 footer {
@@ -170,4 +171,11 @@ footer {
 	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
+}
+
+@media only screen and (max-width: 855px) {
+  
+    #overview {
+    width: 45%;
+  }
 }
