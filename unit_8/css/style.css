@@ -107,6 +107,11 @@ a:hover {
 	width: 55%;
 }
 
+.wrap {
+	float:left;
+	margin: 10px;
+}
+
 #related_links {
 	background-color: white;
 	border: 1px black solid;
@@ -142,24 +147,6 @@ a:hover {
 	padding: 1em;
 	margin: .5em;
 	float:	left;
-	width: 25%;
-}
-
-#caning {
-	background-color: #FFEDD7;
-	border: 1px black solid;
-	padding: 1em;
-	margin: .5em;
-	float: left;
-	width: 25%;
-}
-
-#upholstery {
-	background-color: #FFEDD7;
-	border: 1px black solid;
-	padding: 1em;
-	margin: .5em;
-	float: left;
 	width: 25%;
 }
 
