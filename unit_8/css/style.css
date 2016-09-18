@@ -15,7 +15,9 @@ h1 {
 
 h2 {
 	color: black;
-	font-size: 1em;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	letter-spacing: 1px;
 	font-family: 'Anton', sans-serif;
 	text-align: center;
 	border-bottom: 4px solid black;
@@ -45,6 +47,7 @@ header {
 #slogan {
 	font-family: 'Anton', sans-serif;
 	font-variant: small-caps;
+	letter-spacing: 2px;
 	font-style: italic;
 	text-align: center;
 	font-size: 2em;
@@ -52,7 +55,6 @@ header {
 }
 
 #navlinks {
-	/*background-color: #FFFBE5;*/
 	text-align: center;
 	width: 100%;
 }
@@ -62,6 +64,8 @@ nav a {
 	text-decoration: none;
 	color: #E82C0C;
 	font-size: 1em;
+	font-variant: small-caps;
+	letter-spacing: 1px;
 	margin: .5em;
 	padding: .5em;
 	display: inline-block;
