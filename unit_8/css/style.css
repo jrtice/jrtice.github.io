@@ -30,7 +30,7 @@ h2 {
 	text-align: center;
 	border-bottom: 4px solid black;
   	display: inline-block;
-  	margin: .5em;
+  	margin: .25em;
 }
 
 p {
@@ -144,7 +144,7 @@ a:hover {
 	list-style-type: none;
 	font-family: 'EB Garamond', serif;
 	text-align: left;
-	color: rgb(50,1,232);
+	color: #3201E8;
 	font-size: 1em;
 
 }
