@@ -141,9 +141,12 @@ a:hover {
 }
 
 #linkslist {
+	list-style-type: none;
+	font-family: 'EB Garamond', serif;
 	text-align: left;
 	color: rgb(50,1,232);
 	font-size: 1em;
+
 }
 
 #serviceslist {
