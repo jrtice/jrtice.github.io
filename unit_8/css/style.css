@@ -181,14 +181,8 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   
-  #navlinks {
-  	font-size 1.5em;
-  	margin: .25em;
-	padding: .25em;
-  }
-
   nav a {
-  	font-size 1.5em;
+  	font-size: 1.5em;
   	margin: .25em;
 	padding: .25em;
   }
@@ -200,8 +194,8 @@ footer {
     font-size: 1.5em;
   }
 
-  #navlinks {
-  	font-size 1em;
+  nav a {
+  	font-size: 1em;
   	margin: .25em;
 	padding: .25em;
   }
@@ -223,9 +217,9 @@ footer {
   	display: none;
   }
 
-  #navlinks {
+  nav a {
   	display: inline;
-  	font-size .75em;
+  	font-size: .75em;
   	margin: .10em;
 	padding: .10em;
   }
