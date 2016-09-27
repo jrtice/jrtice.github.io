@@ -182,21 +182,18 @@ footer {
 
 @media only screen and (max-width: 914px) {
   
-    #overview {
-    width: 45%;
+  nav a {
+  	font-size 1.5em;
+  	margin: .25em;
+	padding: .25em;
   }
+
 }
 
 @media only screen and (max-width: 772px) {
   
     #slogan {
     font-size: 1.5em;
-  }
-
-  nav a {
-  	font-size 1.5em;
-  	margin: .25em;
-	padding: .25em;
   }
 
   .resttype {
