@@ -179,7 +179,7 @@ footer {
 	text-align: center;
 }
 
-@media only screen and (max-width: 1002px) {
+@media only screen and (max-width: 1027px) {
   
   nav a {
   	font-size: 1.5em;
