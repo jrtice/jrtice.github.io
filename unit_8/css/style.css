@@ -193,20 +193,17 @@ footer {
     font-size: 1.5em;
   }
 
-  #weaving {
+  nav a {
+  	font-size 1.5em;
+  	margin: .25em;
+	padding: .25em;
+  }
+
+  .resttype {
   	float:none;
   	width: 90%;
   }
 
-  #caning {
-  	float:none;
-  	width: 90%;
-  }
-
-  #upholstery {
-  	float:none;
-  	width: 90%;
-  }
 }
 
 @media only screen and (max-width: 561px) {
