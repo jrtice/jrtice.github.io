@@ -55,7 +55,6 @@ header {
 #slogan {
 	font-family: 'Anton', sans-serif;
 	font-variant: small-caps;
-	letter-spacing: 2px;
 	font-style: italic;
 	text-align: center;
 	font-size: 2em;
@@ -182,6 +181,12 @@ footer {
 
 @media only screen and (max-width: 914px) {
   
+  #navlinks {
+  	font-size 1.5em;
+  	margin: .25em;
+	padding: .25em;
+  }
+
   nav a {
   	font-size 1.5em;
   	margin: .25em;
@@ -192,7 +197,7 @@ footer {
 
 @media only screen and (max-width: 772px) {
   
-    #slogan {
+   #slogan {
     font-size: 1.5em;
   }
 
