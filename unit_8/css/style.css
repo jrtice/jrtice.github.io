@@ -187,6 +187,11 @@ footer {
 	padding: .25em;
   }
 
+  nav a {
+  	font-size 1.5em;
+  	margin: .25em;
+	padding: .25em;
+  }
 }
 
 @media only screen and (max-width: 772px) {
