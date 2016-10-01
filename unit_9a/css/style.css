@@ -1,0 +1,229 @@
+*{
+    box-sizing:border-box;
+}
+
+html{
+    height:100%;
+}
+
+body {
+	font-family: 'EB Garamond', serif;
+	/*background-color: rgb(232,228,193);*/
+	background-color: white;
+	font-size: 16px;
+}
+
+h1 {
+	color: rgb(0,0,0);
+	font-size: 2em;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	background-color: white;
+}
+
+h2 {
+	color: black;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	border-bottom: 4px solid black;
+  	display: inline-block;
+  	margin: .25em;
+}
+
+p {
+	color: rgb(0,0,0);
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1em;
+}
+
+header {
+	background-color: white;
+	width: 100%;
+	padding: 1em;
+}
+
+#logo {
+	display: block;
+	width: 360px;
+	margin: 0 auto;
+}
+
+#slogan {
+	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 1px;
+}
+
+#navlinks {
+	text-align: center;
+	width: 100%;
+}
+
+nav a {
+	font-family: 'Anton', sans-serif;
+	text-decoration: none;
+	color: #E82C0C;
+	font-size: 2em;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	margin: .5em;
+	padding: .5em;
+	display: inline-block;
+}
+
+a:hover {
+	background-color: #E2E0E5;
+}
+
+.re {
+	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
+	color: red;
+}
+
+.covered {
+	font-family: 'Anton', sans-serif;
+	font-variant: small-caps;
+	color: black;
+}
+
+#two_column {
+	background-color: #FFF6D7;
+	border: 1px black solid;
+	padding: 1em;
+	width: 100%;
+	margin: auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#overview {
+	background-color: white;
+	border: 1px black solid;
+	padding: 1em;
+	/*margin: .5em;
+	width: 55%;*/
+	margin: 1.5%;
+	width: 47%;
+	float: left;
+
+}
+
+.wrap {
+	float:left;
+	margin: 10px;
+}
+
+#related_links {
+	background-color: white;
+	border: 1px black solid;
+	padding: 1em;
+	/*width: 30%;
+	margin: .5em;*/
+	margin: 1.5%;
+	width: 47%;
+	float: left;
+}
+
+#linkslist {
+	list-style-type: none;
+	font-family: 'EB Garamond', serif;
+	text-align: left;
+	color: #3201E8;
+	font-size: 1em;
+
+}
+
+#serviceslist {
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	list-style-type: none;
+	color: rgb(0,0,0);
+	font-size: 1em;
+}
+
+#three_column {
+	background-color: white;
+	padding: 1em;
+	width: 100%;
+	margin: auto;
+}
+
+.resttype {
+	background-color: #FFEDD7;
+	border: 1px black solid;
+	padding: 1em;
+	margin: 1.5%;
+	float:	left;
+	width: 30.33%;
+}
+
+footer {
+	background-color: #F2EACC;
+	border: 1px black solid;
+	padding: 1em;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1027px) {
+  
+  nav a {
+  	font-size: 1.5em;
+  	margin: .25em;
+	padding: .25em;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  
+  #slogan {
+    font-size: 1.5em;
+  }
+
+  nav a {
+  	font-size: 1em;
+  	margin: .25em;
+	padding: .25em;
+  }
+
+  .resttype {
+  	float:none;
+  	width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 561px) {
+  
+  #overview {
+    width: 90%;
+  }
+
+  #related_links {
+  	display: none;
+  }
+
+  nav a {
+  	/* display: inline;*/
+  	margin: .10em;
+	padding: .10em;
+  }
+
+  #logo {
+  	width: 240px;
+  }
+}
